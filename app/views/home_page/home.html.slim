@@ -1,0 +1,50 @@
+= provide(:title, "GoodTimes")
+= render 'layouts/carousel'
+
+.container-fluid
+	.row 
+		.col-md-4#planning-left
+			h3
+				| Where you at?
+			p
+				| First leg.
+
+
+		.col-md-4#planning-center
+			h3
+				| Whats next?
+			p
+				| Second leg.
+			.dropdown
+  				button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown" 
+  					| Select 
+  					span class="caret"
+  				ul.dropdown-menu
+	    			li 
+	    				a href="#" Venice
+	    			li 
+	    				a href="#" Rome
+	    			li 
+	    				a href="#" Florence
+	   
+
+	    .col-md-4#planning-right
+	    	h3
+	    		| Plan C?
+	    	p
+	    		| Third leg.
+
+	.row 
+		.col-md-4
+
+		.col-md-4
+	    	
+
+	    .col-md-4
+
+	.row
+		.col-md-4
+		.col-md-4.form-group
+			    	label for="exampleInputEmail1" Sign Up and We Will Hook You Up!
+			    	input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email"
+		.col-md-4

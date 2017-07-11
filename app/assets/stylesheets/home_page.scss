@@ -1,0 +1,37 @@
+// Place all the styles related to the HomePage controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+@import "bootstrap-sprockets";
+@import "bootstrap";
+
+@mixin box_sizing{
+	text-align: center;
+	padding-left: none;
+	padding-right: none;
+	background-color: #fafafa;
+	min-height: 300px;
+}
+
+header.navbar-inverse{
+	background-color: #ffffff;
+	opacity: 0.5;
+}
+
+#planning-left{
+	@include box_sizing;
+}
+
+#planning-right{
+	@include box_sizing;
+}
+
+#planning-center{
+	// background-image: url("sample.jpg");
+	// background-size: contain;
+	// background-repeat: no-repeat;
+	@include box_sizing;
+}
+
+.carousel-inner {
+	max-height:700px;
+}
