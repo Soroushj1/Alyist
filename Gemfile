@@ -10,6 +10,11 @@ gem 'jquery-rails', '4.3.1'
 gem 'turbolinks',   '5.0.1'
 gem 'jbuilder',     '2.6.1'
 gem 'slim',         '~> 3.0'
+gem 'koala',        '~> 3.0'
+gem 'dotenv-rails', require: 'dotenv/rails-now'
+gem 'devise'
+gem 'omniauth-facebook'
+
 
 group :development, :test do
   gem 'sqlite3', '1.3.13'
@@ -21,6 +26,7 @@ group :development do
   gem 'listen',                '3.0.8'
   gem 'spring',                '2.0.2'
   gem 'spring-watcher-listen', '2.0.1'
+
 end
 
 group :test do

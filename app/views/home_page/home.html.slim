@@ -43,8 +43,9 @@
 	    .col-md-4
 
 	.row
-		.col-md-4
+		.col-md-4.LoginCard
+         	=link_to "Sign in with Facebook", user_facebook_omniauth_authorize_url(), class: "btn btn-lg btn-primary"
 		.col-md-4.form-group
-			    	label for="exampleInputEmail1" Sign Up and We Will Hook You Up!
-			    	input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email"
+			label for="exampleInputEmail1" Sign Up and We Will Hook You Up!
+			input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email"
 		.col-md-4
